@@ -19,6 +19,7 @@ export const UserSearch = () => {
 
   const search = async () => {
     const { data } = await axios.get<User>(`/api/users?query=${query}`);
+    console.log(data);
     setUser(data);
   };
 
