@@ -2,7 +2,8 @@
 // import Form from "./components/Form";
 
 // import AsyncComponent from "./components/AsyncComponent";
-import { UserSearch } from "./components/UserSearch";
+// import { UserSearch } from "./components/UserSearch";
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
 
       {/* <Form /> */}
       {/* <AsyncComponent /> */}
-      <UserSearch />
+      {/* <UserSearch /> */}
+      <Counter />
     </>
   );
 }
